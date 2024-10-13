@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const About: NextPage = () => {
   const personalInfo = [
-    { label: "Website", value: "https://porfolio-alan.netlify.app" },
+    // { label: "Website", value: "https://porfolio-alan.netlify.app" },
     { label: "Email", value: "fernandeezalan20@gmail.com" },
     { label: "LinkedIn", value: "www.linkedin.com/in/alan-damian-fernández2022" },
     { label: "GitHub", value: "https://github.com/Alan-Fernandez" },
