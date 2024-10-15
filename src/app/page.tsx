@@ -1,6 +1,4 @@
-
 export default async function Home() {
-
   return (
     <main>
       <section className="home section" id="home">
@@ -26,7 +24,10 @@ export default async function Home() {
               {/* <a href="https://instagram.com/" target="_blank">
                 <i className="fa fa-instagram" />
               </a> */}
-              <a href="https://www.linkedin.com/in/alan-damian-fern%C3%A1ndez2022" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/alan-damian-fern%C3%A1ndez2022"
+                target="_blank"
+              >
                 <i className="fa fa-linkedin" />
               </a>
             </div>

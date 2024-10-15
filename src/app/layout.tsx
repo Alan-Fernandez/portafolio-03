@@ -1,21 +1,21 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
-import "./globals.css";
-import "../styles/style.css";
-import "../styles/blue.css";
-import "../styles/theme.css";
-import Sidebar from "@/components/sidebar/sidebar";
-import Providers from "./providers";
-import ThemeSwitch from "@/components/panel/ThemeSwitch";
-import FolioProBanner from "@/components/banner/folio-pro";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
+import './globals.css';
+import '../styles/style.css';
+import '../styles/blue.css';
+import '../styles/theme.css';
+import Sidebar from '@/components/sidebar/sidebar';
+import Providers from './providers';
+import ThemeSwitch from '@/components/panel/ThemeSwitch';
+import FolioProBanner from '@/components/banner/folio-pro';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Folio the best Portfolio or Personal Website",
+  title: 'Folio the best Portfolio or Personal Website',
   description:
-    "Folio is the best portfolio or personal website for developer, creator or businessman.",
+    'Folio is the best portfolio or personal website for developer, creator or businessman.',
 };
 
 export default function RootLayout({
@@ -32,7 +32,7 @@ export default function RootLayout({
           <Sidebar />
           {children} */}
           {/* Temporary for Banner */}
-          {/* <FolioProBanner /> */}
+          <FolioProBanner />
           <div className="temp-layout">
             <ThemeSwitch />
             <Sidebar />

@@ -1,13 +1,11 @@
 // components/ClientProjectList/ClientProjectList.tsx
 
-"use client";
+'use client';
 
 import { Project } from '@/utils/type/project';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
-
-
 
 const ClientProjectList = () => {
   const router = useRouter();
@@ -51,10 +49,10 @@ const ClientProjectList = () => {
           <div className="portfolio-item-inner shadow-dark">
             <div className="portfolio-img">
               {project.imageUrl.length > 0 && (
-                <Image 
-                  src={project.imageUrl[0].img} 
-                  alt={project.title} 
-                  width={800}  
+                <Image
+                  src={project.imageUrl[0].img}
+                  alt={project.title}
+                  width={800}
                   height={450}
                 />
               )}

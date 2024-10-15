@@ -1,6 +1,6 @@
 // /src/app/portfolio/page.tsx
 
-import ClientProjectList from "@/components/portfolio/ClientProjectList/ClientProjectList";
+import ClientProjectList from '@/components/portfolio/ClientProjectList/ClientProjectList';
 
 const Portfolio = () => {
   return (

@@ -1,81 +1,86 @@
-"use client";
+'use client';
 
-import type { NextPage } from "next";
-import { useState } from "react";
+import type { NextPage } from 'next';
+import { useState } from 'react';
 
 const About: NextPage = () => {
   const personalInfo = [
     // { label: "Website", value: "https://porfolio-alan.netlify.app" },
-    { label: "Email", value: "fernandeezalan20@gmail.com" },
-    { label: "LinkedIn", value: "www.linkedin.com/in/alan-damian-fernández2022" },
-    { label: "GitHub", value: "https://github.com/Alan-Fernandez" },
-    { label: "Phone", value: "+55 48 9995-26886" },
-    { label: "City", value: "Florianópolis" },
-    { label: "Freelance", value: "Available" },
+    { label: 'Email', value: 'fernandeezalan20@gmail.com' },
+    {
+      label: 'LinkedIn',
+      value: 'www.linkedin.com/in/alan-damian-fernández2022',
+    },
+    { label: 'GitHub', value: 'https://github.com/Alan-Fernandez' },
+    { label: 'Phone', value: '+55 48 9995-26886' },
+    { label: 'City', value: 'Florianópolis' },
+    { label: 'Freelance', value: 'Available' },
   ];
 
   const skills = [
-    { name: "HTML5", percentage: 90 },
-    { name: "CSS3", percentage: 85 },
-    { name: "JavaScript", percentage: 95 },
-    { name: "TypeScript", percentage: 90 },
-    { name: "Next.js", percentage: 85 },
-    { name: "Node.js", percentage: 80 },
-    { name: "PostgreSQL", percentage: 75 },
-    { name: "Docker", percentage: 70 },
+    { name: 'HTML5', percentage: 90 },
+    { name: 'CSS3', percentage: 85 },
+    { name: 'JavaScript', percentage: 95 },
+    { name: 'TypeScript', percentage: 90 },
+    { name: 'Next.js', percentage: 85 },
+    { name: 'Node.js', percentage: 80 },
+    { name: 'PostgreSQL', percentage: 75 },
+    { name: 'Docker', percentage: 70 },
   ];
 
   const education = [
     {
-      date: "2024",
-      title: "Desenvolvedor Web Full Stack, Henry Bootcamp",
+      date: '2024',
+      title: 'Desenvolvedor Web Full Stack, Henry Bootcamp',
       description:
-        "Completo o curso teórico-prático de 800 horas, especializando-me em desenvolvimento full stack com tecnologias como JavaScript, React, Next.js, Node.js e PostgreSQL.",
+        'Completo o curso teórico-prático de 800 horas, especializando-me em desenvolvimento full stack com tecnologias como JavaScript, React, Next.js, Node.js e PostgreSQL.',
     },
     {
-      date: "2017 a 2020",
-      title: "Engenharia de Sistemas de Informação, Universidade Tecnológica Nacional",
+      date: '2017 a 2020',
+      title:
+        'Engenharia de Sistemas de Informação, Universidade Tecnológica Nacional',
       description:
-        "Cursados três anos na área de Engenharia de Sistemas de Informação, adquirindo sólidos conhecimentos em lógica de programação, estruturas de dados e arquitetura de software.",
+        'Cursados três anos na área de Engenharia de Sistemas de Informação, adquirindo sólidos conhecimentos em lógica de programação, estruturas de dados e arquitetura de software.',
     },
     {
-      date: "2022",
-      title: "Cursos Complementares em Backend e DevOps",
+      date: '2022',
+      title: 'Cursos Complementares em Backend e DevOps',
       description:
-        "Estudos contínuos com cursos focados em Node.js, PostgreSQL, Express.js, Next.js, e CI/CD para ambientes de produção.",
+        'Estudos contínuos com cursos focados em Node.js, PostgreSQL, Express.js, Next.js, e CI/CD para ambientes de produção.',
     },
   ];
 
   const experience = [
     {
-      date: "Oct 2024 - Atualmente",
-      title: "Líder Técnico e Desenvolvedor Full Stack – SwaplyAr",
+      date: 'Oct 2024 - Atualmente',
+      title: 'Líder Técnico e Desenvolvedor Full Stack – SwaplyAr',
       description:
-        "Atuação na liderança de equipe, supervisão de projetos e desenvolvimento full stack, garantindo a qualidade do código e implementando soluções escaláveis e eficientes.",
+        'Atuação na liderança de equipe, supervisão de projetos e desenvolvimento full stack, garantindo a qualidade do código e implementando soluções escaláveis e eficientes.',
     },
     {
-      date: "Jul 2024 - Oct 2024",
-      title: "Desenvolvedor Full Stack e Especialista em Qualidade de Software – SwaplyAr",
+      date: 'Jul 2024 - Oct 2024',
+      title:
+        'Desenvolvedor Full Stack e Especialista em Qualidade de Software – SwaplyAr',
       description:
-        "Responsável por testes, desenvolvimento e correção de páginas web, além de implementar melhorias utilizando Google Apps Script.",
+        'Responsável por testes, desenvolvimento e correção de páginas web, além de implementar melhorias utilizando Google Apps Script.',
     },
     {
-      date: "Jun 2022 - Oct 2024",
-      title: "Suporte Técnico de Sistemas – GRUPO SEB (COC Floripa)",
+      date: 'Jun 2022 - Oct 2024',
+      title: 'Suporte Técnico de Sistemas – GRUPO SEB (COC Floripa)',
       description:
-        "Responsável pela manutenção e configuração de infraestrutura de rede, garantindo o funcionamento ideal dos sistemas e dispositivos.",
+        'Responsável pela manutenção e configuração de infraestrutura de rede, garantindo o funcionamento ideal dos sistemas e dispositivos.',
     },
     {
-      date: "Maio 2024 - Jul 2024",
-      title: "Desenvolvedor Full Stack Freelancer – Bummi AI",
+      date: 'Maio 2024 - Jul 2024',
+      title: 'Desenvolvedor Full Stack Freelancer – Bummi AI',
       description:
-        "Desenvolvimento de soluções utilizando Next.js, TypeScript e PostgreSQL para uma plataforma de inteligência artificial, garantindo escalabilidade e segurança.",
+        'Desenvolvimento de soluções utilizando Next.js, TypeScript e PostgreSQL para uma plataforma de inteligência artificial, garantindo escalabilidade e segurança.',
     },
     {
-      date: "Set 2023 - Jul 2024",
-      title: "Full Stack Teaching Assistant – Henry Bootcamp",
+      date: 'Set 2023 - Jul 2024',
+      title: 'Full Stack Teaching Assistant – Henry Bootcamp',
       description:
-        "Coordenação e mentoria técnica de estudantes, promovendo integração e técnicas avançadas de programação como Pair Programming.",
+        'Coordenação e mentoria técnica de estudantes, promovendo integração e técnicas avançadas de programação como Pair Programming.',
     },
   ];
 
@@ -104,12 +109,12 @@ const About: NextPage = () => {
       </div>
     ));
 
-    const toggleSkills = () => {
-      setShowAllSkills((prevShowAll: boolean) => !prevShowAll);
-    };
+  const toggleSkills = () => {
+    setShowAllSkills((prevShowAll: boolean) => !prevShowAll);
+  };
 
   const renderTimeline = (
-    items: { date: string; title: string; description: string }[]
+    items: { date: string; title: string; description: string }[],
   ) =>
     items.map((item, index) => (
       <div className="timeline-item" key={index}>
@@ -136,16 +141,20 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am <span>Alan Fernandez</span>, a{" "}
+                    I am <span>Alan Fernandez</span>, a{' '}
                     <span>Full Stack Developer</span>
                   </h2>
                   <p>
-                    Hi! My name is Alan Fernandez. I am a Full Stack Developer
-                    with extensive experience in modern technologies such as
-                    JavaScript, TypeScript, and Next.js. I am passionate and
-                    dedicated to my work, with proven leadership skills,
-                    project management expertise, and a strong focus on code
-                    quality.
+                    I am a full stack developer with over 3 years of experience,
+                    working with modern technologies such as JavaScript,
+                    TypeScript, React.js, Next.js, and Node.js. I have solid
+                    knowledge in PostgreSQL and experience optimizing
+                    applications using Redux and Zustand for state management.
+                    My career includes leading teams and developing scalable
+                    solutions, prioritizing code quality and system efficiency.
+                    Currently, I am enhancing my technical and leadership
+                    skills, focusing on delivering high-performance projects
+                    that meet user needs and keep up with market innovations.
                   </p>
                 </div>
               </div>
@@ -174,7 +183,7 @@ const About: NextPage = () => {
                     {renderSkills(showAllSkills ? skills : skills.slice(0, 3))}
                   </div>
                   <button className="btn" onClick={toggleSkills}>
-                    {showAllSkills ? "Ver menos" : "Ver más"}
+                    {showAllSkills ? 'Ver menos' : 'Ver más'}
                   </button>
                 </div>
               </div>

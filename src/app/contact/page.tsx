@@ -1,10 +1,10 @@
-import type { NextPage } from "next";
+import type { NextPage } from 'next';
 
 // Información de contacto
 const contactInfo = {
-  address: "Florianópolis, Brasil",
-  phone: "+55 48 9995-26886",
-  email: "fernandeezalan20@gmail.com",
+  address: 'Florianópolis, Brasil',
+  phone: '+55 48 9995-26886',
+  email: 'fernandeezalan20@gmail.com',
 };
 
 const Contact: NextPage = () => {

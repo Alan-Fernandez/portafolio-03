@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useState } from "react";
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { useState } from 'react';
 
 const Sidebar = () => {
   const [open, setOpen] = useState(false);
@@ -17,7 +17,7 @@ const Sidebar = () => {
   const pathUrl = usePathname();
 
   return (
-    <aside className={`aside ${open ? "open" : ""}`}>
+    <aside className={`aside ${open ? 'open' : ''}`}>
       <div onClick={handleOpen} className="nav-toggler">
         <span />
       </div>
@@ -29,14 +29,14 @@ const Sidebar = () => {
         </div>
         <ul className="nav">
           <li onClick={handleClose}>
-            <Link href="/" className={`${pathUrl == "/" && "active"}`}>
+            <Link href="/" className={`${pathUrl == '/' && 'active'}`}>
               <i className="fa fa-home" /> Home
             </Link>
           </li>
           <li onClick={handleClose}>
             <Link
               href="/about"
-              className={`${pathUrl == "/about" && "active"}`}
+              className={`${pathUrl == '/about' && 'active'}`}
             >
               <i className="fa fa-user" /> About
             </Link>
@@ -44,7 +44,7 @@ const Sidebar = () => {
           <li onClick={handleClose}>
             <Link
               href="/services"
-              className={`${pathUrl == "/services" && "active"}`}
+              className={`${pathUrl == '/services' && 'active'}`}
             >
               <i className="fa fa-list" /> Services
             </Link>
@@ -52,27 +52,27 @@ const Sidebar = () => {
           <li onClick={handleClose}>
             <Link
               href="/portfolio"
-              className={`${pathUrl == "/portfolio" && "active"}`}
+              className={`${pathUrl == '/portfolio' && 'active'}`}
             >
               <i className="fa fa-briefcase" /> Portfolio
             </Link>
           </li>
           <li onClick={handleClose}>
-            <Link href="/blog" className={`${pathUrl == "/blog" && "active"}`}>
+            <Link href="/blog" className={`${pathUrl == '/blog' && 'active'}`}>
               <i className="fa fa-envelope" /> Blog
             </Link>
           </li>
           <li onClick={handleClose}>
             <Link
               href="/contact"
-              className={`${pathUrl == "/contact" && "active"}`}
+              className={`${pathUrl == '/contact' && 'active'}`}
             >
               <i className="fa fa-comments" /> Contact
             </Link>
           </li>
         </ul>
         <div className="copyright">
-          Created with ❤️ By{" "}
+          Created with ❤️ By{' '}
           <a href="http://alsiam.com" target="_blank" rel="noopener noreferrer">
             Al Siam
           </a>

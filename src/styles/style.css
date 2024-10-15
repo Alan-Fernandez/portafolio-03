@@ -1,4 +1,4 @@
-@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 /* General style 
 ======================================================== */
 html {
@@ -8,7 +8,7 @@ body {
   margin: 0;
   line-height: 1.5;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 ::-webkit-scrollbar {
@@ -40,7 +40,7 @@ body {
 input,
 textarea,
 select {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .section {
   background-color: #f2f2fc;
@@ -101,13 +101,13 @@ select {
 .section-title h2 {
   font-size: 40px;
   color: #302e4d;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 700;
   margin: 0;
   position: relative;
 }
 .section-title h2::before {
-  content: "";
+  content: '';
   height: 4px;
   width: 50px;
   position: absolute;
@@ -115,7 +115,7 @@ select {
   left: 0;
 }
 .section-title h2::after {
-  content: "";
+  content: '';
   height: 4px;
   width: 25px;
   position: absolute;
@@ -150,7 +150,7 @@ select {
 }
 .btn {
   font-size: 16px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   padding: 12px 35px;
   color: #fff;
@@ -224,23 +224,23 @@ select {
 /* Banner Style */
 /* =========================================================== */
 /* Temp layout */
-.temp-layout{
+.temp-layout {
   margin-top: 40px;
   height: 100%;
 }
-.banner{
+.banner {
   z-index: 999;
   position: relative;
   background: rgb(0, 132, 255);
   font-weight: 500;
   padding: 12px 0;
 }
-.banner-wrap{
-display: flex;;
-justify-content: center;
-align-items: center;
+.banner-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.banner-card{
+.banner-card {
   font-size: 16px;
   color: white;
   background-color: crimson;
@@ -249,13 +249,13 @@ align-items: center;
   margin-right: 4px;
   font-weight: 600;
 }
-.banner-desc{
+.banner-desc {
   text-align: center;
   font-weight: 500;
 }
-.banner-btn{
+.banner-btn {
   outline: none;
-  border: none;;
+  border: none;
   color: black;
   background-color: white;
   padding: 2px 8px;
@@ -265,9 +265,9 @@ align-items: center;
   border-radius: 8px;
   min-width: max-content;
   max-width: max-content;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
-.banner-btn:hover{
+.banner-btn:hover {
   color: white;
   background-color: black;
 }
@@ -301,7 +301,7 @@ align-items: center;
 .aside .logo a {
   font-size: 40px;
   color: #302e4d;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 700;
   display: inline-block;
   position: relative;
@@ -309,7 +309,7 @@ align-items: center;
   line-height: 50px;
 }
 .aside .logo a::before {
-  content: "";
+  content: '';
   height: 20px;
   width: 20px;
   position: absolute;
@@ -317,7 +317,7 @@ align-items: center;
   left: 0;
 }
 .aside .logo a::after {
-  content: "";
+  content: '';
   height: 20px;
   width: 20px;
   position: absolute;
@@ -355,7 +355,7 @@ align-items: center;
   background-color: transparent;
 }
 .aside .nav-toggler span::before {
-  content: "";
+  content: '';
   height: 2.5px;
   width: 18px;
   position: absolute;
@@ -368,7 +368,7 @@ align-items: center;
   top: 0px;
 }
 .aside .nav-toggler span::after {
-  content: "";
+  content: '';
   height: 2.5px;
   width: 18px;
   position: absolute;
@@ -430,7 +430,7 @@ align-items: center;
 .home .intro h1 {
   font-size: 30px;
   color: #302e4d;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 700;
   margin: 20px 0 5px;
 }
@@ -604,7 +604,7 @@ align-items: center;
   padding-bottom: 50px;
 }
 .about .about-content .timeline .timeline-item::before {
-  content: "";
+  content: '';
   width: 1px;
   position: absolute;
   height: 100%;
@@ -845,70 +845,69 @@ align-items: center;
 /* globals.css */
 
 .portfolio.section {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 2rem;
-    /* background-color: rgba(var(--tile-start-rgb), 0.5); */
-    border-radius: var(--border-radius);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem;
+  /* background-color: rgba(var(--tile-start-rgb), 0.5); */
+  border-radius: var(--border-radius);
 }
 
 .project-header {
-    text-align: center;
-    margin-bottom: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .carousel-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .carousel-container img {
-    border-radius: var(--border-radius);
+  border-radius: var(--border-radius);
 }
 
 button.prev,
 button.next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 1rem;
-    cursor: pointer;
-    z-index: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  z-index: 1;
 }
 
 button.prev {
-    left: 10px;
+  left: 10px;
 }
 
 button.next {
-    right: 10px;
+  right: 10px;
 }
 
 .project-description {
-    margin-top: 1.5rem;
-    font-size: 1rem;
-    line-height: 1.6;
-    color: rgb(var(--foreground-rgb));
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgb(var(--foreground-rgb));
 }
 
 .project-link {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.75rem 1.5rem;
-    background-color: #0070f3;
-    color: white;
-    border-radius: var(--border-radius);
-    text-align: center;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #0070f3;
+  color: white;
+  border-radius: var(--border-radius);
+  text-align: center;
 }
-
 
 /* Lightbox  */
 
@@ -1282,7 +1281,7 @@ button.next {
   }
 }
 @media (max-width: 1024px) {
-  .banner{
+  .banner {
     padding: 20px 0;
   }
   .blog .blog-item,
@@ -1294,7 +1293,7 @@ button.next {
   }
 }
 @media (max-width: 768px) {
-  .banner{
+  .banner {
     padding: 20px 0;
   }
   .contact .contact-form .col-6,
@@ -1313,16 +1312,16 @@ button.next {
   }
 }
 @media (max-width: 575px) {
-  .banner{
+  .banner {
     padding: 20px 0;
   }
-  .banner-wrap{
+  .banner-wrap {
     display: block;
   }
-  .banner-desc{
+  .banner-desc {
     font-size: 14px;
   }
-  .banner-btn{
+  .banner-btn {
     width: max-content;
     font-size: 14px;
     margin: auto;

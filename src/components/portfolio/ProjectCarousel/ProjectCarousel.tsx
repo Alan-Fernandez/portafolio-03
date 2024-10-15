@@ -12,7 +12,10 @@ interface ProjectCarouselProps {
   description: string;
 }
 
-const ProjectCarousel: React.FC<ProjectCarouselProps> = ({ images, description }) => {
+const ProjectCarousel: React.FC<ProjectCarouselProps> = ({
+  images,
+  description,
+}) => {
   // Configuración del carrusel
   const settings = {
     dots: true,
