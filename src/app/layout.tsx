@@ -32,7 +32,7 @@ export default function RootLayout({
           <Sidebar />
           {children} */}
           {/* Temporary for Banner */}
-          <FolioProBanner />
+          {/* <FolioProBanner /> */}
           <div className="temp-layout">
             <ThemeSwitch />
             <Sidebar />

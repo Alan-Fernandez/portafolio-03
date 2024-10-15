@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "KongWebhook",
+    "description": "Tienda Online",
+    "imageUrl": "https://res.cloudinary.com/df5jwzuq9/image/upload/v1728853742/kong-webhook_xr0nu0.png",
+    "link": "https://kong-webhook-v2.vercel.app",
+    "category": "web-design"
+  },
+  {
+    "id": 2,
+    "title": "SwaplyAr",
+    "description": "Convertí y enviá tu dinero",
+    "imageUrl": "https://res.cloudinary.com/df5jwzuq9/image/upload/v1728853376/swaplyar_srke3o.png",
+    "link": "https://swaplyar.vercel.app",
+    "category": "web-design"
+  },
+  {
+    "id": 3,
+    "title": "Henry Music",
+    "description": "Interactive music application",
+    "imageUrl": "https://res.cloudinary.com/df5jwzuq9/image/upload/v1715685591/rcay6pokjpppnui7gpqy.jpg",
+    "link": "https://henry-music.vercel.app",
+    "category": "web-design"
+  },
+  {
+    "id": 4,
+    "title": "Future World",
+    "description": "Dynamic routes and AI chatbot website",
+    "imageUrl": "https://res.cloudinary.com/df5jwzuq9/image/upload/v1715470649/Captura_de_pantalla_2024-05-11_203606_mtz8bt.png",
+    "link": "https://web-business-pied.vercel.app",
+    "category": "ai"
+  },
+  {
+    "id": 5,
+    "title": "Videogames",
+    "description": "Single Page Application for game exploration",
+    "imageUrl": "/imgs/portfolio/videogames.jpg",
+    "link": "https://web-business-pied.vercel.app",
+    "category": "games"
+  }
+]

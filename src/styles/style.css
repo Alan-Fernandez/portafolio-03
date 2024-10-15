@@ -842,6 +842,74 @@ align-items: center;
   line-height: 40px;
 }
 
+/* globals.css */
+
+.portfolio.section {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2rem;
+    /* background-color: rgba(var(--tile-start-rgb), 0.5); */
+    border-radius: var(--border-radius);
+}
+
+.project-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-container img {
+    border-radius: var(--border-radius);
+}
+
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+.project-description {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgb(var(--foreground-rgb));
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #0070f3;
+    color: white;
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+
 /* Lightbox  */
 
 .lightbox {
