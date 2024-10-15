@@ -6,9 +6,9 @@ export default function FolioProBanner() {
       <div className="banner-wrap">
         <p className="banner-desc">
           <span className="banner-card">Folio Pro</span> Be the first to
-          experience Folio Pro
+          experience Folio
         </p>
-        {/* <a href="https://folio-pro.alsiam.com" target="_blank" className="banner-btn">
+        {/* <a href="#" target="_blank" className="banner-btn">
           Get it Now <IoIosArrowRoundForward />
         </a> */}
       </div>

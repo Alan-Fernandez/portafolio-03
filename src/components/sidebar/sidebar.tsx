@@ -24,7 +24,7 @@ const Sidebar = () => {
       <div className="aside-inner">
         <div className="logo">
           <Link href="/" onClick={handleClose}>
-            Folio
+            ADF
           </Link>
         </div>
         <ul className="nav">
@@ -73,8 +73,8 @@ const Sidebar = () => {
         </ul>
         <div className="copyright">
           Created with ❤️ By{' '}
-          <a href="http://alsiam.com" target="_blank" rel="noopener noreferrer">
-            Al Siam
+          <a href="www.linkedin.com/in/alan-damian-fernández2022" target="_blank" rel="noopener noreferrer">
+            Alan DF
           </a>
         </div>
       </div>
