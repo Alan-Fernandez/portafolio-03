@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+---
 
-First, run the development server:
+# Portafolio-03
 
+## Descripción del Proyecto
+Portafolio-03 es un portafolio web personal desarrollado con **Next.js** en su versión 14.2.15. Presenta diferentes secciones como proyectos, blogs, servicios y una página de contacto, todo diseñado para ser rápido y eficiente. El sitio está optimizado para producción y cuenta con soporte para temas mediante la dependencia `next-themes`.
+
+## Estructura del Proyecto
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+/public        # Archivos estáticos como imágenes y recursos
+/src
+  /app         # Directorio principal de la aplicación Next.js
+    /blog      # Página de blog
+    /portfolio # Página de proyectos con vistas dinámicas
+    /services  # Página de servicios
+/pages/api     # Rutas API, como la de los proyectos
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Scripts Disponibles
+- **build**: Genera una versión optimizada para producción.
+- **dev**: Inicia el servidor de desarrollo en local.
+- **format**: Usa Prettier para formatear el código.
+- **lint**: Corre ESLint para verificar el código.
+- **start**: Inicia el servidor de producción.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build   # Genera la build de producción
+npm run dev     # Inicia el entorno de desarrollo
+npm run lint    # Revisa el código con ESLint
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Dependencias
+- **React**: ^18
+- **Next.js**: 14.2.15
+- **React-icons**: ^5.3.0 para iconos vectoriales.
+- **React-slick**: ^0.30.2 para carruseles.
+- **Slick-carousel**: ^1.8.1 para la funcionalidad de carrusel.
 
-## Learn More
+## Dependencias de Desarrollo
+- **Prettier**: ^3.3.3 para formateo de código.
+- **Typescript**: ^5 para soporte de tipado en JavaScript.
+- **ESLint**: ^8 para control de calidad del código.
 
-To learn more about Next.js, take a look at the following resources:
+## Problemas Detectados
+- **Advertencias con `<img>`**: Se recomienda utilizar el componente `<Image />` de Next.js en lugar de la etiqueta `<img>` para optimizar la carga de imágenes.
+- **Error con rutas dinámicas**: La ruta `/api/projects` no pudo ser renderizada de manera estática debido al uso de `request.url`. Revisa la documentación de Next.js sobre renderización dinámica.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Optimización y Mejoras
+- Implementar el componente `<Image />` para optimizar el rendimiento.
+- Revisar la ruta `/api/projects` para evitar el uso de `request.url` en la construcción estática.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Derechos de Autor
+© 2024 Alan Fernandez. Todos los derechos reservados. Este proyecto y su código fuente están bajo una licencia de uso personal. No está permitido su distribución, modificación o uso con fines comerciales sin el permiso previo del autor. Para más detalles, por favor contacta al autor a través de las vías proporcionadas en el portafolio.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---

@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 export default async function Home() {
   return (
     <main>
       <section className="home section" id="home">
         <div className="container">
           <div className="intro">
-            <img
+            <Image
               src="/imgs/logo_adf.png"
               alt="Al Siam Profile"
               className="shadow-dark"
