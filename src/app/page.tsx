@@ -10,6 +10,8 @@ export default async function Home() {
               src="/imgs/logo_adf.png"
               alt="Al Siam Profile"
               className="shadow-dark"
+              width={200}
+              height={200}
             />
             <h1>Alan Damian Fernández</h1>
             <p>Fullstack Developer</p>
