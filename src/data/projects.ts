@@ -21,7 +21,8 @@ export const projects = [
   {
     id: 2,
     title: 'SwaplyAr',
-    description: 'SwaplyAr surgió de una necesidad fundamental: facilitar el intercambio de saldo de manera eficiente y garantizar que cada usuario reciba lo acordado, brindándole acompañamiento en cada etapa del proceso. Gracias a su fiabilidad, seguridad y velocidad en cada transacción, SwaplyAr experimentó un crecimiento exponencial, consolidándose como una plataforma confiable y robusta para sus usuarios.',
+    description:
+      'SwaplyAr surgió de una necesidad fundamental: facilitar el intercambio de saldo de manera eficiente y garantizar que cada usuario reciba lo acordado, brindándole acompañamiento en cada etapa del proceso. Gracias a su fiabilidad, seguridad y velocidad en cada transacción, SwaplyAr experimentó un crecimiento exponencial, consolidándose como una plataforma confiable y robusta para sus usuarios.',
     imageUrl: [
       {
         id: 1,

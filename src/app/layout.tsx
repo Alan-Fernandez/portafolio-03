@@ -9,7 +9,7 @@ import '../styles/theme.css';
 import Sidebar from '@/components/sidebar/sidebar';
 import Providers from './providers';
 import ThemeSwitch from '@/components/panel/ThemeSwitch';
-import FolioProBanner from '@/components/banner/folio-pro';
+// import FolioProBanner from '@/components/banner/folio-pro';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -27,10 +27,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <FolioProBanner />
-        <div>
-          <Providers>
-            {/* Use this for your site */}
+        {/* <FolioProBanner /> */}
+        <Providers>
+          {/* Use this for your site */}
+          {/* <ThemeSwitch />
+          <Sidebar />
+          {children} */}
+
+          {/* Temporary for Banner */}
+          <div className="temp-layout">
             <ThemeSwitch />
             <Sidebar />
             {children}
