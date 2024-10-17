@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 import '../styles/style.css';
 import '../styles/blue.css';
@@ -30,19 +31,13 @@ export default function RootLayout({
         <div>
           <Providers>
             {/* Use this for your site */}
-            {/* <ThemeSwitch />
+            <ThemeSwitch />
             <Sidebar />
-            {children} */}
-
-            {/* Temporary for Banner */}
-            <div className="temp-layout">
-              <ThemeSwitch />
-              <Sidebar />
-              {children}
-            </div>
-          </Providers>
-          <Analytics />
-        </div>
+            {children}
+          </div>
+        </Providers>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
