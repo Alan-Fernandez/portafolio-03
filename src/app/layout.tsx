@@ -26,8 +26,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-          <FolioProBanner />
-          <div>         
+        <FolioProBanner />
+        <div>
           <Providers>
             {/* Use this for your site */}
             {/* <ThemeSwitch />
@@ -42,7 +42,7 @@ export default function RootLayout({
             </div>
           </Providers>
           <Analytics />
-          </div>
+        </div>
       </body>
     </html>
   );

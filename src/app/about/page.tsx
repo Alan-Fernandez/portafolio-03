@@ -161,10 +161,7 @@ const About: NextPage = () => {
 
               <div className="row">
                 <div className="personal-info padd-15">
-                  
-                  <div className="row">
-                    {renderInfoItems(personalInfo)}
-                  </div>
+                  <div className="row">{renderInfoItems(personalInfo)}</div>
 
                   <div className="row buttons padd-15">
                     <a

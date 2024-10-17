@@ -1,4 +1,3 @@
-
 ---
 
 # Portafolio-03
@@ -53,6 +52,7 @@ npm run lint    # Revisa el código con ESLint
 ---
 
 ## Derechos de Autor
+
 © 2024 Alan Fernandez. Todos los derechos reservados. Este proyecto y su código fuente están bajo una licencia de uso personal. No está permitido su distribución, modificación o uso con fines comerciales sin el permiso previo del autor. Para más detalles, por favor contacta al autor a través de las vías proporcionadas en el portafolio.
 
 ---

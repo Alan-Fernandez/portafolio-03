@@ -1,4 +1,4 @@
-@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 /* General style 
 ======================================================== */
 html {
@@ -8,7 +8,7 @@ body {
   margin: 0;
   line-height: 1.5;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 ::-webkit-scrollbar {
@@ -40,7 +40,7 @@ body {
 input,
 textarea,
 select {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .section {
   background-color: #f2f2fc;
@@ -101,13 +101,13 @@ select {
 .section-title h2 {
   font-size: 40px;
   color: #302e4d;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 700;
   margin: 0;
   position: relative;
 }
 .section-title h2::before {
-  content: "";
+  content: '';
   height: 4px;
   width: 50px;
   position: absolute;
@@ -115,7 +115,7 @@ select {
   left: 0;
 }
 .section-title h2::after {
-  content: "";
+  content: '';
   height: 4px;
   width: 25px;
   position: absolute;
@@ -150,7 +150,7 @@ select {
 }
 .btn {
   font-size: 16px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   padding: 12px 35px;
   color: #fff;
@@ -224,11 +224,11 @@ select {
 /* Banner Style */
 /* =========================================================== */
 /* Temp layout */
-.temp-layout{
+.temp-layout {
   margin-top: 40px;
   height: 100%;
 }
-.banner{
+.banner {
   z-index: 9999;
   position: fixed; /* Fija el banner en la parte superior */
   top: 0;
@@ -241,12 +241,12 @@ select {
   justify-content: center;
   align-items: center;
 }
-.banner-wrap{
-display: flex;;
-justify-content: center;
-align-items: center;
+.banner-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.banner-card{
+.banner-card {
   font-size: 16px;
   color: white;
   background-color: crimson;
@@ -255,13 +255,13 @@ align-items: center;
   margin-right: 4px;
   font-weight: 600;
 }
-.banner-desc{
+.banner-desc {
   text-align: center;
   font-weight: 500;
 }
-.banner-btn{
+.banner-btn {
   outline: none;
-  border: none;;
+  border: none;
   color: black;
   background-color: white;
   padding: 2px 8px;
@@ -271,14 +271,14 @@ align-items: center;
   border-radius: 8px;
   min-width: max-content;
   max-width: max-content;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
-.banner-btn:hover{
+.banner-btn:hover {
   color: white;
   background-color: black;
 }
 
-.close-btn{
+.close-btn {
   position: absolute;
   right: 10px;
   top: 50%;
@@ -292,7 +292,7 @@ align-items: center;
   cursor: pointer;
   font-size: 14px;
 }
-.close-btn:hover{
+.close-btn:hover {
   background-color: darkred;
 }
 
@@ -325,7 +325,7 @@ align-items: center;
 .aside .logo a {
   font-size: 40px;
   color: #302e4d;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 700;
   display: inline-block;
   position: relative;
@@ -333,7 +333,7 @@ align-items: center;
   line-height: 50px;
 }
 .aside .logo a::before {
-  content: "";
+  content: '';
   height: 20px;
   width: 20px;
   position: absolute;
@@ -341,7 +341,7 @@ align-items: center;
   left: 0;
 }
 .aside .logo a::after {
-  content: "";
+  content: '';
   height: 20px;
   width: 20px;
   position: absolute;
@@ -379,7 +379,7 @@ align-items: center;
   background-color: transparent;
 }
 .aside .nav-toggler span::before {
-  content: "";
+  content: '';
   height: 2.5px;
   width: 18px;
   position: absolute;
@@ -392,7 +392,7 @@ align-items: center;
   top: 0px;
 }
 .aside .nav-toggler span::after {
-  content: "";
+  content: '';
   height: 2.5px;
   width: 18px;
   position: absolute;
@@ -454,7 +454,7 @@ align-items: center;
 .home .intro h1 {
   font-size: 50px;
   color: #302e4d;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 700;
   margin: 20px 0 5px;
 }
@@ -628,7 +628,7 @@ align-items: center;
   padding-bottom: 50px;
 }
 .about .about-content .timeline .timeline-item::before {
-  content: "";
+  content: '';
   width: 1px;
   position: absolute;
   height: 100%;
@@ -1313,7 +1313,7 @@ button.next {
   }
 }
 @media (max-width: 1024px) {
-  .banner{
+  .banner {
     padding: 20px 0;
   }
   .blog .blog-item,
@@ -1325,7 +1325,7 @@ button.next {
   }
 }
 @media (max-width: 768px) {
-  .banner{
+  .banner {
     padding: 20px 0;
   }
   .contact .contact-form .col-6,
@@ -1344,16 +1344,16 @@ button.next {
   }
 }
 @media (max-width: 575px) {
-  .banner{
+  .banner {
     padding: 20px 0;
   }
-  .banner-wrap{
+  .banner-wrap {
     display: block;
   }
-  .banner-desc{
+  .banner-desc {
     font-size: 14px;
   }
-  .banner-btn{
+  .banner-btn {
     width: max-content;
     font-size: 14px;
     margin: auto;

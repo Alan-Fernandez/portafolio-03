@@ -8,7 +8,6 @@ import Image from 'next/image';
 import { Project } from '@/utils/type/project';
 import { FaGithub } from 'react-icons/fa';
 
-
 const PortfolioPage = () => {
   const { id } = useParams();
   const projectId = id as string;
@@ -102,10 +101,20 @@ const PortfolioPage = () => {
             </button>
           )}
         </div>
-          <div className="project-header">
-            <div>
-              <p>{project.description}</p>
-            </div>
+        <div className="project-header">
+          <div className="row">
+            {project.github && (
+              <div className="project-icons">
+                <a
+                  href={project.github}
+                  className="github-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub size={60} />
+                </a>
+              </div>
+            )}
             <div>
               <a
                 href={project.link}
@@ -116,20 +125,11 @@ const PortfolioPage = () => {
                 Visit Project
               </a>
             </div>
-            {project.github && (
-              <div className="project-icons">
-                <a
-                  href={project.github}
-                  className="github-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaGithub size={30} />
-                </a>
-              </div>
-            )}
           </div>
-
+          <div>
+            <p>{project.description}</p>
+          </div>
+        </div>
       </div>
     </div>
   );

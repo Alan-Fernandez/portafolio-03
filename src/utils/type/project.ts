@@ -10,5 +10,5 @@ export interface Project {
   imageUrl: ImageObj[];
   link: string;
   category: string;
-  github?: string; 
+  github?: string;
 }

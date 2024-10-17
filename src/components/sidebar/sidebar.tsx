@@ -73,7 +73,11 @@ const Sidebar = () => {
         </ul>
         <div className="copyright">
           Created with ❤️ By{' '}
-          <a href="www.linkedin.com/in/alan-damian-fernández2022" target="_blank" rel="noopener noreferrer">
+          <a
+            href="www.linkedin.com/in/alan-damian-fernández2022"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Alan DF
           </a>
         </div>

@@ -2,7 +2,8 @@ export const projects = [
   {
     id: 1,
     title: 'KongWebhook',
-    description: 'Tienda Online',
+    description:
+      'Plataforma backend para gestão eficiente e escalável de webhooks. Implementada com Next.js e Prisma para manipulação de bancos de dados relacionais como PostgreSQL. Utiliza NextAuth para autenticação segura, Cloudinary para gerenciamento de mídia, e Tailwind CSS para estilização. O projeto segue boas práticas com Eslint, Prettier e migrações automatizadas via Prisma CLI.',
     imageUrl: [
       {
         id: 1,
@@ -15,6 +16,7 @@ export const projects = [
     ],
     link: 'https://kong-webhook-v2.vercel.app',
     category: 'web-design',
+    github: 'https://github.com/Alan-Fernandez/kong_webhook_v2',
   },
   {
     id: 2,
@@ -57,7 +59,7 @@ export const projects = [
       'Proyecto en Next.js con rutas dinámicas, múltiples métodos de data fetching, integrando un chatbot con IA. Optimiza el rendimiento del sitio y su SEO, garantizando una experiencia excelente para tus clientes.',
     category: 'ai',
   },
-    {
+  {
     id: 5,
     title: 'PorfolioOne',
     description: 'Porfolio',
@@ -90,5 +92,6 @@ export const projects = [
     ],
     link: 'https://web-business-pied.vercel.app',
     category: 'games',
+    github: '',
   },
 ];

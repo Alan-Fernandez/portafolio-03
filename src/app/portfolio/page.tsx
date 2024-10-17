@@ -29,7 +29,7 @@ const Portfolio: NextPage = () => {
               </button> */}
             </div>
           </div>
-            <ClientProjectList/>
+          <ClientProjectList />
         </div>
       </section>
     </div>
