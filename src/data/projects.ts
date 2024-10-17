@@ -57,8 +57,29 @@ export const projects = [
       'Proyecto en Next.js con rutas dinámicas, múltiples métodos de data fetching, integrando un chatbot con IA. Optimiza el rendimiento del sitio y su SEO, garantizando una experiencia excelente para tus clientes.',
     category: 'ai',
   },
-  {
+    {
     id: 5,
+    title: 'PorfolioOne',
+    description: 'Porfolio',
+    imageUrl: [
+      {
+        id: 1,
+        img: 'https://res.cloudinary.com/df5jwzuq9/image/upload/v1729161833/portafoloOne-01_qsiiyk.png',
+      },
+      {
+        id: 2,
+        img: 'https://res.cloudinary.com/df5jwzuq9/image/upload/v1729161833/portafoloOne-02_ko5srp.png',
+      },
+      {
+        id: 3,
+        img: 'https://res.cloudinary.com/df5jwzuq9/image/upload/v1729161833/portafoloOne-03-_oeycqq.png',
+      },
+    ],
+    link: 'https://porfolio-alan.netlify.app',
+    category: 'web-design',
+  },
+  {
+    id: 6,
     title: 'Videogames',
     description: 'Single Page Application for game exploration',
     imageUrl: [

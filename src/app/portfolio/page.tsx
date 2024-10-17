@@ -1,8 +1,9 @@
 // /src/app/portfolio/page.tsx
 
 import ClientProjectList from '@/components/portfolio/ClientProjectList/ClientProjectList';
+import { NextPage } from 'next';
 
-const Portfolio = () => {
+const Portfolio: NextPage = () => {
   return (
     <div>
       <section className="portfolio section" id="portfolio">
@@ -14,22 +15,21 @@ const Portfolio = () => {
           </div>
           <div className="row">
             <div className="portfolio-filter padd-15">
-              <button type="button" className="active" data-filter="all">
+              {/* <button type="button" className="active" data-filter="all">
                 All
+              </button>
+              <button type="button" data-filter="graphics-design">
+                Graphics Design
               </button>
               <button type="button" data-filter="web-design">
                 Web Design
               </button>
-              <button type="button" data-filter="ai">
-                AI Projects
-              </button>
-              <button type="button" data-filter="games">
-                Games
-              </button>
+              <button type="button" data-filter="wordpress">
+                Wordpress
+              </button> */}
             </div>
           </div>
-          {/* Renderiza el componente cliente aquí */}
-          <ClientProjectList />
+            <ClientProjectList/>
         </div>
       </section>
     </div>

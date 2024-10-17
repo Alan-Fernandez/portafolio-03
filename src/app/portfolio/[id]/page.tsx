@@ -6,6 +6,8 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
 import Image from 'next/image';
 import { Project } from '@/utils/type/project';
+import { FaGithub } from 'react-icons/fa';
+
 
 const PortfolioPage = () => {
   const { id } = useParams();
@@ -100,21 +102,34 @@ const PortfolioPage = () => {
             </button>
           )}
         </div>
-        <div className="project-header">
-          <div>
-            <p>{project.description}</p>
+          <div className="project-header">
+            <div>
+              <p>{project.description}</p>
+            </div>
+            <div>
+              <a
+                href={project.link}
+                className="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit Project
+              </a>
+            </div>
+            {project.github && (
+              <div className="project-icons">
+                <a
+                  href={project.github}
+                  className="github-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub size={30} />
+                </a>
+              </div>
+            )}
           </div>
-          <div>
-            <a
-              href={project.link}
-              className="project-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Visit Project
-            </a>
-          </div>
-        </div>
+
       </div>
     </div>
   );
